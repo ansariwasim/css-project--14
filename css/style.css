@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Poppins:wght@200;300;400&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+}
+
+  /*   left-container */
+
+  .left-container{
+    height: 100vh;
+    width: 35vw;
+    background-image:url(../img/pexels-rfstudio-3819572.jpg);
+    background-size:cover;
+  }
+
+  .left-container img{
+    height: 32px;
+    margin-top:43px;
+    margin-left:35px;
+  }
+
+
+  /* Right-Container */
+
+  .right-container{
+       width:65vw;
+  }
+
+  .navbar ul::before{
+    content:"";
+    width: 300px;
+    height:2px;
+    background-color:black;
+    margin-right:22px;
+  }
+
+  .navbar{
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Poppins', sans-serif;
+   align-items: center;
+    height: 80px;
+  }
+
+  .navbar ul li{
+  list-style-type: none;
+  margin-right:70px;
+  }
+
+  .contain-center{
+    display: flex;
+    justify-content:space-between;
+  }
+
+   .heading{
+    margin-top: 30px;
+    margin-left:32px;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    font-weight: 600;
+    -webkit-text-fill-color:white;
+    -webkit-text-stroke: 1px;
+    line-height: 0.9;
+
+  }
+
+  .heading-2{
+    margin-left:80px;
+    -webkit-text-fill-color:black;
+  }
+
+  .heading-3 h1{
+    margin-top:110px;
+    margin-right:265px;
+    font-weight:200;
+    font-family: 'Merriweather', serif;
+    line-height:25px;
+  }
+
+  .font-icon{
+    display:flex;
+    flex-direction: column;
+    margin-right: 100px;
+  }
+
+  .fa-brands{
+    font-size: 20px;
+    margin-top:20px;
+  }
+
+  .fa-regular{
+    margin-top: 20px;
+  }
+
+  .btn{
+    background-color: black;
+    color: white;
+    width:290px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-left:492px;
+    margin-top: 20px;
+    font-weight: 500;
+    cursor: pointer;
+
+  }
+
+
+  .bottom-content{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .list {
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    line-height:50px;
+    font-size: 1.2rem;
+    color: #5d5d5d;
+  }
+
+  .list-item span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #5d5d5d;
+    margin-right: 10px;
+    position: relative;
+  }
+
+  .list-item span::after {
+    content: "";
+    width: 1px;
+    height: 55px;
+    position: absolute;
+    left: 4px;
+    background: #5d5d5d;
+  }
+
+ 
+  
+  .list-item:hover {
+    cursor: pointer;
+    color: #000;
+  }
+ 
+  .list-item.active {
+    color: #000;
+  }
+
+  .paragraph{
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+  }
+  .img-bottom{
+    background-image:url(../img/pexels-cottonbro-7974875.jpg);
+    background-size:cover;
+    width:400px;
+    height:213px;
+  }
+
+   .arrow img{
+    margin-top:55px;
+    margin-right: 18px;
+    width: 200px;
+    height: 200px;
+    color: black;
+  } 
+
+ 
